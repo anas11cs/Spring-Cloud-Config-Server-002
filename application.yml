@@ -32,8 +32,8 @@ microservice:
     endpoints:
       endpoint:
         uri: http://POSSECURITYSERVER/security/getSecurity
-      # endpoint1:
-      #   uri: http://POSSECURITYSERVER/register
-      # endpoint2:
-      #   uri: http://POSSECURITYSERVER/login
+      endpoint1:
+        uri: http://POSSECURITYSERVER/register
+      endpoint2:
+        uri: http://POSSECURITYSERVER/login
 # ---------------------------
