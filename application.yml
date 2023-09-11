@@ -30,8 +30,8 @@ microservice:
         uri: http://POSSTORE/store/getStore
   possecurityserver:
     endpoints:
-      endpoint1:
+      endpoint:
         uri: http://POSSECURITYSERVER/register
-      endpoint2:
+      endpoint:
         uri: http://POSSECURITYSERVER/login
 # ---------------------------
