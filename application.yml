@@ -1,0 +1,31 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+# ---------------------------
+microservice:
+  pospayment:
+    endpoints:
+      endpoint:
+        uri: http://POSPAYMENT/payment/getPayment
+  poscustomer:
+    endpoints:
+      endpoint:
+        uri: http://POSCUSTOMER/customer/getCustomer
+  posdelivery:
+    endpoints:
+      endpoint:
+        uri: http://POSDELIVERY/delivery/getDelivery
+  possale:
+    endpoints:
+      endpoint:
+        uri: http://POSSALE/sale/getSale
+  posstore:
+    endpoints:
+      endpoint:
+        uri: http://POSSTORE/store/getStore
+# ---------------------------
