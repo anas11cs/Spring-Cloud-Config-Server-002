@@ -34,4 +34,18 @@ microservice:
         uri: http://POSSECURITYSERVER/login
       endpoint1:
         uri: http://POSSECURITYSERVER/speciallogout
+        endpoint2:
+        uri: http://POSSECURITYSERVER/user/getusers
+        endpoint3:
+        uri: http://POSSECURITYSERVER/user/save
+        endpoint4:
+        uri: http://POSSECURITYSERVER/role/getroles
+        endpoint5:
+        uri: http://POSSECURITYSERVER/role/save
+        endpoint6:
+        uri: http://POSSECURITYSERVER/role/addtouser
+        endpoint7:
+        uri: http://POSSECURITYSERVER/token/refreshToken
+        endpoint8:
+        uri: http://POSSECURITYSERVER/token/validateToken
 # ---------------------------
