@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:8762/eureka/
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8762}/eureka/
 # ---------------------------
 microservice:
   pospayment:
