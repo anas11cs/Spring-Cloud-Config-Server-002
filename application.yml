@@ -2,7 +2,7 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    service-url:
+    serviceUrl:
       defaultZone: http://localhost:8762/eureka/
 # ---------------------------
 microservice:
